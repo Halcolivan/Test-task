@@ -1,0 +1,13 @@
+.wrapper{
+  max-width: 1600px;
+  margin: auto;
+}
+.logo {
+  display: inline-block;
+  background: url(assets/image/Logo.svg), lightgray 0px 0px / 100% 100% no-repeat;
+  width: 78px;
+  height: 100px;
+}
+.header__wrapper {
+  background: url(assets/image/Bg.svg), lightgray 50% / cover no-repeat;
+}
