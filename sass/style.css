@@ -341,19 +341,19 @@ template {
 @font-face {
   font-weight: 700;
   font-family: Proxima Nova;
-  src: url("fonts/proxima-nova-bold.ttf");
+  src: url("../fonts/proxima-nova-bold.ttf");
 }
 
 @font-face {
   font-weight: 600;
   font-family: Proxima Nova;
-  src: url("fonts/proxima-nova-semibold.ttf");
+  src: url("../fonts/proxima-nova-semibold.ttf");
 }
 
 @font-face {
   font-weight: 400;
   font-family: Proxima Nova;
-  src: url("fonts/proxima-nova-regular.ttf");
+  src: url("../fonts/proxima-nova-regular.ttf");
 }
 
 
@@ -379,7 +379,7 @@ a {
 
 .header {
   display: flex;
-  background: url(assets/image/Bg.svg), lightgray 50% / cover no-repeat;
+  background: url(../assets/image/Bg.svg), lightgray 50% / cover no-repeat;
 }
 
 .wrapper {
@@ -393,7 +393,7 @@ a {
 
 .logo {
   display: inline-block;
-  background: url(assets/image/Logo.svg), lightgray 0px 0px / 100% 100% no-repeat;
+  background: url(../assets/image/Logo.svg), lightgray 0px 0px / 100% 100% no-repeat;
   width: 78px;
   height: 100px;
   margin-top: 2rem;
@@ -449,12 +449,11 @@ h1 {
 }
 
 .auth__button {
-display: flex;
+  display: flex;
   padding: 1px 2px;
 }
 
 .button {
-  /* display: inline-block; */
   border: none;
   color: #FFF;
   width: 174px;
@@ -473,9 +472,9 @@ display: flex;
 
 .twit-image {
   display: inline-block;
-  background: url(assets/image/Twitter.svg);
+  background: url(../assets/image/Twitter.svg);
   width: 151px;
-height: 124px;
+  height: 124px;
 }
 
 .auth__pagination {}
@@ -485,3 +484,5 @@ height: 124px;
 .main {}
 
 .footer {}
+
+/*# sourceMappingURL=style.css.map */
