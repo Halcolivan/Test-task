@@ -1,0 +1,22 @@
+@import 'base/normalize';
+
+//abstracts
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+@import 'abstracts/placeholders';
+@import 'abstracts/constants';
+@import 'abstracts/fonts';
+
+//base
+
+@import 'base/base';
+
+//layout
+@import 'layout/navigations';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/forms';
+@import 'layout/wrapper';
+
+//components
+@import 'components/buttons';

@@ -337,27 +337,21 @@ template {
   display: none;
 }
 
-
 @font-face {
   font-weight: 700;
   font-family: Proxima Nova;
-  src: url("../fonts/proxima-nova-bold.ttf");
+  src: url("../../fonts/proxima-nova-bold.ttf");
 }
-
 @font-face {
   font-weight: 600;
   font-family: Proxima Nova;
-  src: url("../fonts/proxima-nova-semibold.ttf");
+  src: url("../../fonts/proxima-nova-semibold.ttf");
 }
-
 @font-face {
   font-weight: 400;
   font-family: Proxima Nova;
-  src: url("../fonts/proxima-nova-regular.ttf");
+  src: url("../../fonts/proxima-nova-regular.ttf");
 }
-
-
-
 *,
 ::after,
 ::before {
@@ -372,18 +366,34 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  font-family: Proxima Nova, Arial, sans-serif;
+}
+
 a {
   text-decoration: none;
   color: inherit;
 }
 
-.header {
-  display: flex;
-  background: url(../assets/image/Bg.svg), lightgray 50% / cover no-repeat;
+h1 {
+  color: #FFF;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 55px;
+  padding-bottom: 0.75rem;
 }
 
-.wrapper {
-  max-width: 1600px;
+h2 {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 55px;
+}
+
+.header {
+  display: flex;
+  background: url(../assets/image/Bg.svg), lightgray 50%/cover no-repeat;
 }
 
 .header__wrapper {
@@ -393,7 +403,7 @@ a {
 
 .logo {
   display: inline-block;
-  background: url(../assets/image/Logo.svg), lightgray 0px 0px / 100% 100% no-repeat;
+  background: url(../assets/image/Logo.svg), lightgray 0px 0px/100% 100% no-repeat;
   width: 78px;
   height: 100px;
   margin-top: 2rem;
@@ -422,20 +432,14 @@ li:not(:last-child) {
   line-height: 18px;
 }
 
-.auth {}
+.auth__container {
+  display: flex;
+  align-items: center;
+}
 
 .auth__content {
   margin-left: 19.125rem;
-}
-
-h1 {
-  color: #FFF;
-  font-family: Proxima Nova;
-  font-size: 55px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 55px;
-  padding-bottom: 0.75rem;
+  margin-right: 13.75rem;
 }
 
 .auth__text {
@@ -450,7 +454,6 @@ h1 {
 
 .auth__button {
   display: flex;
-  padding: 1px 2px;
 }
 
 .button {
@@ -468,7 +471,10 @@ h1 {
   text-transform: uppercase;
 }
 
-.auth__twit-image {}
+.auth__twit-image {
+  padding-top: 1rem;
+  margin-right: 18.56rem;
+}
 
 .twit-image {
   display: inline-block;
@@ -477,12 +483,24 @@ h1 {
   height: 124px;
 }
 
-.auth__pagination {}
+.auth__pagination {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-bottom: 1rem;
+}
 
-.pag {}
+.pag {
+  display: inline-block;
+  background: url(../../assets/icons/pagination.svg);
+  width: 19px;
+  height: 22px;
+  color: #FFF;
+}
 
-.main {}
-
-.footer {}
+.wrapper {
+  max-width: 1600px;
+  margin: auto;
+}
 
 /*# sourceMappingURL=style.css.map */
