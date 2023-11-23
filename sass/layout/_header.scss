@@ -1,36 +1,43 @@
 .header {
   display: flex;
-  background: url(../assets/image/Bg.svg), lightgray 50% / cover no-repeat;
+  background: $color-light;
 }
-
+.header__container {
+  width: 100%;
+  background: url(../../assets/image/Bg.svg),
+    $color-light 100% / cover no-repeat;
+}
 .header__wrapper {
   display: flex;
-  padding: 0 14rem 8rem;
+  padding: 32px 224px 0;
 }
-
 .logo {
-  display: inline-block;
-  background: url(../assets/image/Logo.svg),
+  display: block;
+  background: url(../../assets/image/Logo.svg),
     lightgray 0px 0px / 100% 100% no-repeat;
   width: 78px;
   height: 100px;
-  margin-top: 2rem;
-  margin-right: 31.5rem;
+  margin-right: 504px;
 }
-
 .header__navigation {
-  margin-top: 5rem;
+  padding-top: 48px;
 }
-
 .navigation {
   display: flex;
 }
-
-li:not(:last-child) {
-  padding-right: 1.75rem;
+.navigation li {
+  border-bottom: 3px solid transparent;
 }
-
+.navigation li:hover {
+  border-bottom: 3px solid $color-fill;
+}
+li:not(:last-child) {
+  margin-right: 26px;
+}
 .nav-item {
+  display: inline-block;
+  padding: 0px 1px 5px;
+  transition: all 0.7s ease;
   text-transform: uppercase;
   color: $color-light;
   font-family: Proxima Nova;
@@ -43,11 +50,11 @@ li:not(:last-child) {
 .auth__container {
   display: flex;
   align-items: center;
+  padding-bottom: 8.44rem;
 }
-
 .auth__content {
-  margin-left: 19.125rem;
-  margin-right: 13.75rem;
+  padding-left: 306px;
+  padding-top: 129px;
 }
 
 .auth__text {
@@ -57,51 +64,103 @@ li:not(:last-child) {
   font-style: normal;
   font-weight: 600;
   line-height: 30px;
-  margin-bottom: 2.75rem;
+  padding-bottom: 2.75rem;
 }
 
-.auth__button {
-  display: flex;
-}
 
-.button {
-  border: none;
-  color: $color-light;
-  width: 174px;
-  height: 53px;
-  border-radius: 4px;
-  background: $color-fill;
-  font-family: Proxima Nova;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 45px;
-  text-transform: uppercase;
-}
 
-.auth__twit-image {
-  padding-top: 1rem;
-  margin-right: 18.56rem;
-}
 
-.twit-image {
-  display: inline-block;
-  background: url(../assets/image/Twitter.svg);
-  width: 151px;
-  height: 124px;
-}
 
-.auth__pagination {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  padding-bottom: 1rem;
-}
 
-.pag {
-  display: inline-block;
-  background: url(../../assets/icons/pagination.svg);
-  width: 19px;
-  height: 22px;
-  color: $color-light;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .auth__button {
+//   display: flex;
+// }
+
+// .button {
+//   border: none;
+//   color: $color-light;
+//   width: 174px;
+//   height: 53px;
+//   border-radius: 4px;
+//   background: $color-fill;
+//   font-family: Proxima Nova;
+//   font-size: 14px;
+//   font-style: normal;
+//   font-weight: 700;
+//   line-height: 45px;
+//   text-transform: uppercase;
+// }
+
+// .auth__twit-image {
+//   padding-top: 1rem;
+//   margin-right: 18.56rem;
+// }
+
+// .twit-image {
+//   display: inline-block;
+//   background: url(../assets/image/Twitter.svg);
+//   width: 151px;
+//   height: 124px;
+// }
+
+// .auth__pagination {
+//   display: flex;
+//   flex-direction: column;
+//   gap: 12px;
+//   padding-bottom: 12px;
+//   padding-left: 2px;
+// }
+
+// .pag {
+//   display: block;
+//   background: url(../../assets/icons/pagination.svg);
+//   width: 19px;
+//   height: 22px;
+//   color: $color-light;
+// }
+
+// .auth__find {
+//   width: 7.25rem;
+//   margin: 0 auto 3.125rem;
+// }
+
+// .find-text {
+//   color: $color-light;
+//   font-family: Proxima Nova;
+//   font-size: 15px;
+//   font-style: normal;
+//   font-weight: 700;
+//   line-height: 20px;
+//   text-transform: uppercase;
+//   padding-bottom: 1.19rem;
+// }
+
+// .find-icon {
+//   display: block;
+//   background: url(../../assets/icons/Union.svg);
+//   width: 62px;
+//   height: 71px;
+//   margin: auto;
+// }
