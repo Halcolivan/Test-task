@@ -1,0 +1,45 @@
+.statistics__container {
+  padding: 133px 301px 131px 346px;
+}
+.statistics__columns {
+  display: flex;
+  flex-direction: row;
+  gap: 92px;
+}
+
+.value {
+  color: $color-brand;
+  font-family: Proxima Nova;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 68px;
+  margin-bottom: 14px;
+}
+.description {
+  color: $color-brand;
+  text-align: center;
+  font-family: Proxima Nova;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: -0.32px;
+  text-transform: uppercase;
+}
+.column-theft{
+  width: 255px;
+}
+.value-theft {
+  padding-left: 15px;
+}
+.column-transact {
+  width: 213px;
+}
+
+.column-fraud {
+  width: 247px;
+}
+.value-fraud {
+  padding-left: 36px;
+}

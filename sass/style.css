@@ -1,16 +1,16 @@
 @font-face {
   font-weight: 700;
-  font-family: 'Proxima Nova';
+  font-family: Proxima Nova;
   src: url("../../fonts/proxima-nova-bold.ttf");
 }
 @font-face {
   font-weight: 600;
-  font-family: 'Proxima Nova';
+  font-family: Proxima Nova;
   src: url("../../fonts/proxima-nova-semibold.ttf");
 }
 @font-face {
   font-weight: 400;
-  font-family: 'Proxima Nova';
+  font-family: Proxima Nova;
   src: url("../../fonts/proxima-nova-regular.ttf");
 }
 * {
@@ -27,7 +27,7 @@
 
 body {
   color: #FFF;
-  font-family: 'Proxima Nova', 'Arial', sans-serif;
+  font-family: Proxima Nova, Arial, sans-serif;
 }
 
 html {
@@ -82,7 +82,7 @@ li:not(:last-child) {
   transition: all 0.7s ease;
   text-transform: uppercase;
   color: #FFF;
-  font-family: 'Proxima Nova';
+  font-family: Proxima Nova;
   font-size: 15px;
   font-style: normal;
   font-weight: 700;
@@ -118,7 +118,7 @@ li:not(:last-child) {
 
 .auth__text {
   color: #FFF;
-  font-family: 'Proxima Nova';
+  font-family: Proxima Nova;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -161,7 +161,7 @@ li:not(:last-child) {
 
 .find-text {
   color: #FFF;
-  font-family: 'Proxima Nova';
+  font-family: Proxima Nova;
   font-size: 15px;
   font-style: normal;
   font-weight: 700;
@@ -176,6 +176,58 @@ li:not(:last-child) {
   width: 62px;
   height: 71px;
   margin: auto;
+}
+
+.statistics__container {
+  padding: 133px 301px 131px 346px;
+}
+
+.statistics__columns {
+  display: flex;
+  flex-direction: row;
+  gap: 92px;
+}
+
+.value {
+  color: #7050E5;
+  font-family: Proxima Nova;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 68px;
+  margin-bottom: 14px;
+}
+
+.description {
+  color: #7050E5;
+  text-align: center;
+  font-family: Proxima Nova;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: -0.32px;
+  text-transform: uppercase;
+}
+
+.column-theft {
+  width: 255px;
+}
+
+.value-theft {
+  padding-left: 15px;
+}
+
+.column-transact {
+  width: 213px;
+}
+
+.column-fraud {
+  width: 247px;
+}
+
+.value-fraud {
+  padding-left: 36px;
 }
 
 .wrapper {
@@ -197,7 +249,7 @@ li:not(:last-child) {
   color: inherit;
   background-color: transparent;
   cursor: pointer;
-  font-family: 'Proxima Nova';
+  font-family: Proxima Nova;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
