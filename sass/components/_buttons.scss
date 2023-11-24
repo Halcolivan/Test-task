@@ -1,0 +1,21 @@
+.auth__button {
+  display: flex;
+  padding: 4px 40px;
+  width: 174px;
+  height: 53px;
+  background: $color-fill;
+  border-radius: 4px;
+}
+
+.button {
+  border: none;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+  font-family: Proxima Nova;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 45px;
+  text-transform: uppercase;
+}
