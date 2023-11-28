@@ -235,6 +235,127 @@ li:not(:last-child) {
   margin: auto;
 }
 
+.services__container {
+  background-color: #F8F8F8;
+  padding: 120px 297px;
+}
+
+.corner {
+  width: 46px;
+  height: 46px;
+  display: block;
+  margin-left: auto;
+  background: url(../../assets/image/corner.svg);
+}
+
+.services__title {
+  color: #7050E5;
+  font-family: Proxima Nova;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 72px;
+  text-transform: capitalize;
+  width: 337px;
+  position: relative;
+  left: 604px;
+  top: -20px;
+}
+
+.services__grid {
+  display: grid;
+  grid-template: repeat(2, 388px)/repeat(3, 1fr);
+  padding-top: 50px;
+  padding-left: 7px;
+}
+
+.grid-item {
+  width: 281px;
+}
+
+.icon-item-1 {
+  padding-left: 39px;
+}
+
+.item-1 {
+  display: block;
+  background: url(../../assets/icons/1.svg);
+  width: 142px;
+  height: 146px;
+}
+
+.item-title-1 {
+  padding: 27px 0 8px;
+}
+
+.icon-item-2 {
+  padding-left: 78px;
+}
+
+.item-2 {
+  display: block;
+  background: url(../../assets/icons/2.svg);
+  width: 160px;
+  height: 150px;
+}
+
+.item-title-2 {
+  padding: 27px 38px 8px;
+}
+
+.item-text-2 {
+  padding-left: 38px;
+}
+
+.item-3 {
+  display: block;
+  background: url(../../assets/icons/3.svg);
+  width: 150px;
+  height: 150px;
+}
+
+.item-4 {
+  display: block;
+  background: url(../../assets/icons/4.svg);
+  width: 132px;
+  height: 139px;
+}
+
+.item-5 {
+  display: block;
+  background: url(../../assets/icons/5.svg);
+  width: 191px;
+  height: 127px;
+}
+
+.item-6 {
+  display: block;
+  background: url(../../assets/icons/6.svg);
+  width: 210px;
+  height: 108px;
+}
+
+.item-title {
+  color: #7050e5;
+  font-family: Proxima Nova;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 111.111% */
+  letter-spacing: -0.36px;
+  text-transform: uppercase;
+}
+
+.item-text {
+  color: #878787;
+  font-family: Proxima Nova;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px; /* 126.667% */
+  letter-spacing: -0.12px;
+}
+
 .auth__button {
   display: flex;
   padding: 4px 40px;
