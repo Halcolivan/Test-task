@@ -1,6 +1,6 @@
 .services__container {
   background-color: $color-services;
-  padding: 120px 297px;
+  padding: 120px 297px 154px;
 }
 .corner {
   width: 46px;
@@ -27,7 +27,7 @@
 .services__grid {
   display: grid;
   grid-template: repeat(2, 388px) / repeat(3, 1fr);
-  padding-top: 50px;
+  padding-top: 47px;
   padding-left: 7px;
 }
 .grid-item {
@@ -37,6 +37,7 @@
 
 .icon-item-1 {
   padding-left: 39px;
+  padding-top: 3px;
 }
 .item-1 {
   display: block;
@@ -51,6 +52,7 @@
 
 .icon-item-2 {
   padding-left: 78px;
+  padding-top: 3px;
 }
 .item-2 {
   display: block;
@@ -66,11 +68,30 @@
 }
 
 
+
+.grid-item-3 {
+  width: 326px;
+}
+.icon-item-3 {
+  padding-left: 103px;
+}
 .item-3 {
   display: block;
   background: url(../../assets/icons/3.svg);
   width: 150px;
   height: 150px;
+}
+.item-title-3 {
+  padding: 27px 0 8px 46px;
+}
+.item-text-3 {
+  padding-left: 46px;
+}
+
+
+.icon-item-4 {
+  padding-left: 58px;
+  padding-top: 3px;
 }
 .item-4 {
   display: block;
@@ -78,11 +99,38 @@
   width: 132px;
   height: 139px;
 }
+.item-title-4 {
+  padding: 25px 0 6px 2px;
+}
+.item-text-4 {
+  padding-left: 2px;
+}
+
+
+.icon-item-5 {
+  padding-left: 75px;
+  padding-top: 12px;
+}
 .item-5 {
   display: block;
   background: url(../../assets/icons/5.svg);
   width: 191px;
   height: 127px;
+}
+.item-title-5 {
+  padding: 28px 0 8px 38px;
+}
+.item-text-5 {
+  padding-left: 38px;
+}
+
+
+.grid-item-6 {
+  width: 308px;
+}
+.icon-item-6 {
+  padding-left: 75px;
+  padding-top: 31px;
 }
 .item-6 {
   display: block;
@@ -90,6 +138,15 @@
   width: 210px;
   height: 108px;
 }
+.item-title-6 {
+  padding: 28px 0 8px 46px;
+}
+.item-text-6 {
+  padding-left: 46px;
+}
+
+
+
 .item-title {
   color: #7050e5;
   font-family: Proxima Nova;
