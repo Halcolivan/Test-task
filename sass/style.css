@@ -48,6 +48,13 @@ h1 {
   padding-bottom: 0.75rem;
 }
 
+h2 {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 55px;
+}
+
 .logo {
   display: block;
   background: url(../../assets/image/Logo.svg), lightgray 0px 0px/100% 100% no-repeat;
@@ -431,10 +438,6 @@ li:not(:last-child) {
 .product-spotlight__title {
   color: #7050e5;
   font-family: Proxima Nova;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 55px;
   margin-bottom: 7px;
 }
 
@@ -496,6 +499,55 @@ li:not(:last-child) {
   line-height: 38px; /* 118.75% */
   text-transform: uppercase;
   padding-left: 150px;
+}
+
+.form__container {
+  background: #232323;
+  width: 1600px;
+  height: 707px;
+}
+
+.form__left-gradient-container {
+  overflow: hidden;
+}
+
+.left-gradient-container {
+  position: relative;
+  bottom: 300px;
+  right: 140px;
+  width: 746.861px;
+  height: 757.168px;
+  transform: rotate(-122.792deg);
+  flex-shrink: 0;
+  border-radius: 373.431px;
+  opacity: 0.37;
+  background: linear-gradient(12deg, #f101bf 2.82%, #06f 97.06%);
+  filter: blur(125px);
+}
+
+.form__title {
+  color: #fff;
+  font-family: Proxima Nova;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 55px; /* 100% */
+  position: relative;
+  left: 200px;
+  bottom: 630px;
+}
+
+.form__button {
+  display: flex;
+  width: 201px;
+  height: 53px;
+  padding: 4px 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: #ff8b00;
 }
 
 .auth__button {
