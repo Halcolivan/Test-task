@@ -503,8 +503,11 @@ li:not(:last-child) {
 
 .form__container {
   background: #232323;
-  width: 1600px;
-  height: 707px;
+}
+
+form {
+  width: 675px;
+  height: 467px;
 }
 
 .form__left-gradient-container {
@@ -537,6 +540,26 @@ li:not(:last-child) {
   bottom: 630px;
 }
 
+.form__right-gradient-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.right-gradient-container {
+  position: relative;
+  bottom: 570px;
+  left: 950px;
+  z-index: 1;
+  width: 472.095px;
+  height: 478.61px;
+  transform: rotate(5.779deg);
+  flex-shrink: 0;
+  border-radius: 236.048px;
+  opacity: 0.3;
+  background: linear-gradient(12deg, #f101bf 2.82%, #06f 97.06%);
+  filter: blur(125px);
+}
+
 .form__button {
   display: flex;
   width: 201px;
@@ -548,6 +571,16 @@ li:not(:last-child) {
   flex-shrink: 0;
   border-radius: 4px;
   background: #ff8b00;
+}
+
+.form__name {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.first-input {
+  margin-top: 10px;
 }
 
 .auth__button {

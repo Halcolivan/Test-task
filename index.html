@@ -187,23 +187,41 @@
 
 
         <div class="form__container">
+
           <div class="form__left-gradient-container">
             <div class="left-gradient-container"></div>
+            <div class="right-gradient-container"></div>
           </div>
           <div class="form__title">Ready<br>
             to get started?</div>
+
+          <div class="form__right-gradient-container">
+
+          </div>
           <form action method="post">
+
             <div class="form__name">
-              <input type="text" name="name" placeholder="First Name">
-              <input type="text" name="name" placeholder="Last Name">
+              <div class="first-name">
+                <label for="first">First Name</label><br>
+                <input class="first-input" type="text" name="first" placeholder="First Name">
+              </div>
+              <div class="last-name">
+                <label for="last">Last Name</label><br>
+                <input type="text" name="last" placeholder="Last Name">
+              </div>
             </div>
             <div class="form__email">
+              <label for="email">Email Address</label><br>
               <input type="email" name="email" placeholder="Email Address">
             </div>
-            <textarea name="Textarea" placeholder="Textarea" cols="30" rows="10"></textarea>
+            <div class="form__textarea">
+              <label for="textarea">Your message</label><br>
+              <textarea name="textarea" placeholder="Textarea" cols="30" rows="10"></textarea>
+            </div>
             <div class="form__button">
               <button type="submit" class="button">SEND</button>
             </div>
+
           </form>
         </div>
 
