@@ -503,27 +503,51 @@ li:not(:last-child) {
 
 .form__container {
   background: #232323;
-}
-
-form {
-  width: 675px;
-  height: 467px;
-}
-
-.form__left-gradient-container {
   overflow: hidden;
+  width: 1600px;
+  height: 707px;
 }
 
 .left-gradient-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1041px;
+  height: 1038px;
   position: relative;
-  bottom: 300px;
-  right: 140px;
+  bottom: 460px;
+  right: 300px;
+}
+
+.left-gradient {
   width: 746.861px;
   height: 757.168px;
   transform: rotate(-122.792deg);
   flex-shrink: 0;
   border-radius: 373.431px;
   opacity: 0.37;
+  background: linear-gradient(12deg, #f101bf 2.82%, #06f 97.06%);
+  filter: blur(125px);
+}
+
+.right-gradient-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 518px;
+  height: 523px;
+  position: relative;
+  left: 870px;
+  bottom: 700px;
+}
+
+.right-gradient {
+  width: 472.095px;
+  height: 478.61px;
+  transform: rotate(5.779deg);
+  flex-shrink: 0;
+  border-radius: 236.048px;
+  opacity: 0.3;
   background: linear-gradient(12deg, #f101bf 2.82%, #06f 97.06%);
   filter: blur(125px);
 }
@@ -537,27 +561,45 @@ form {
   line-height: 55px; /* 100% */
   position: relative;
   left: 200px;
-  bottom: 630px;
+  bottom: 1433px;
+  width: 361px;
+  height: 110px;
 }
 
-.form__right-gradient-container {
+form {
+  width: 675px;
+  height: 467px;
   position: relative;
-  overflow: hidden;
+  left: 793px;
+  bottom: 1531px;
 }
 
-.right-gradient-container {
-  position: relative;
-  bottom: 570px;
-  left: 950px;
-  z-index: 1;
-  width: 472.095px;
-  height: 478.61px;
-  transform: rotate(5.779deg);
-  flex-shrink: 0;
-  border-radius: 236.048px;
-  opacity: 0.3;
-  background: linear-gradient(12deg, #f101bf 2.82%, #06f 97.06%);
-  filter: blur(125px);
+.form__contact-us {
+  color: #fff;
+  font-family: Proxima Nova;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 0px; /* 0% */
+  letter-spacing: -0.746px;
+}
+
+.first-name label {
+  color: #fff;
+  font-family: Proxima Nova;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1px; /* 7.692% */
+}
+
+.last-name label {
+  color: #fff;
+  font-family: Proxima Nova;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1px; /* 7.692% */
 }
 
 .form__button {
@@ -577,10 +619,6 @@ form {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-}
-
-.first-input {
-  margin-top: 10px;
 }
 
 .auth__button {
