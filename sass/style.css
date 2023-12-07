@@ -103,7 +103,7 @@ li:not(:last-child) {
 
 .header__container {
   width: 100%;
-  background: url(../../assets/image/Bg.svg), #FFF 100%/cover no-repeat;
+  background: url(../../assets/image/Background-header.svg), #FFF 100%/cover no-repeat;
 }
 
 .header__wrapper {
@@ -154,7 +154,7 @@ li:not(:last-child) {
 
 .pag {
   display: block;
-  background: url(../../assets/icons/pagination.svg);
+  background: url(../../assets/icons/pagination-header.svg);
   width: 19px;
   height: 22px;
   color: #FFF;
@@ -179,10 +179,31 @@ li:not(:last-child) {
 
 .find-icon {
   display: block;
-  background: url(../../assets/icons/Union.svg);
+  background: url(../../assets/icons/find-icon.svg);
   width: 62px;
   height: 71px;
   margin: auto;
+}
+
+.footer__container {
+  background-color: #363636;
+  height: 423px;
+  padding: 56px 233px 72px 224px;
+}
+
+.footer__top-line {
+  display: flex;
+}
+
+.footer__twitter-container {
+  background-color: #5634D1;
+  width: 59px;
+  height: 60px;
+  padding: 10px 10px 11px;
+}
+
+.footer__3-columns {
+  display: flex;
 }
 
 .statistics__container {
@@ -287,7 +308,7 @@ li:not(:last-child) {
 
 .item-1 {
   display: block;
-  background: url(../../assets/icons/1.svg);
+  background: url(../../assets/icons/services-1.svg);
   width: 142px;
   height: 146px;
 }
@@ -303,7 +324,7 @@ li:not(:last-child) {
 
 .item-2 {
   display: block;
-  background: url(../../assets/icons/2.svg);
+  background: url(../../assets/icons/services-2.svg);
   width: 160px;
   height: 150px;
 }
@@ -326,7 +347,7 @@ li:not(:last-child) {
 
 .item-3 {
   display: block;
-  background: url(../../assets/icons/3.svg);
+  background: url(../../assets/icons/services-3.svg);
   width: 150px;
   height: 150px;
 }
@@ -346,7 +367,7 @@ li:not(:last-child) {
 
 .item-4 {
   display: block;
-  background: url(../../assets/icons/4.svg);
+  background: url(../../assets/icons/services-4.svg);
   width: 132px;
   height: 139px;
 }
@@ -366,7 +387,7 @@ li:not(:last-child) {
 
 .item-5 {
   display: block;
-  background: url(../../assets/icons/5.svg);
+  background: url(../../assets/icons/services-5.svg);
   width: 191px;
   height: 127px;
 }
@@ -390,7 +411,7 @@ li:not(:last-child) {
 
 .item-6 {
   display: block;
-  background: url(../../assets/icons/6.svg);
+  background: url(../../assets/icons/services-6.svg);
   width: 210px;
   height: 108px;
 }
