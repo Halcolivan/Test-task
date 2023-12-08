@@ -4,7 +4,7 @@
 }
 .header__container {
   width: 100%;
-  background: url(../../assets/image/Bg.svg),
+  background: url(../../assets/image/Background-header.svg),
     $color-light 100% / cover no-repeat;
 }
 .header__wrapper {
@@ -55,7 +55,7 @@
 
 .pag {
   display: block;
-  background: url(../../assets/icons/pagination.svg);
+  background: url(../../assets/icons/pagination-header.svg);
   width: 19px;
   height: 22px;
   color: $color-light;
@@ -80,7 +80,7 @@
 
 .find-icon {
   display: block;
-  background: url(../../assets/icons/Union.svg);
+  background: url(../../assets/icons/find-icon.svg);
   width: 62px;
   height: 71px;
   margin: auto;
