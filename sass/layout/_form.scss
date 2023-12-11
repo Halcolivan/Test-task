@@ -1,96 +1,91 @@
 .form__container {
   background: #232323;
   overflow: hidden;
-  width: 1600px;
-  height: 707px;
-  margin-bottom: 97px;
+  width: 100rem;
+  height: 44.1875rem;
+  margin-bottom: 6.0625rem;
 }
-
 .left-gradient-container {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 1041px;
-  height: 1038px;
+  width: 65.0625rem;
+  height: 64.875rem;
   position: relative;
-  bottom: 470px;
-  right: 300px;
+  bottom: 29.375rem;
+  right: 18.75rem;
 }
 .left-gradient {
-  width: 746.861px;
-  height: 757.168px;
+  width: 46.6788rem;
+  height: 47.323rem;
   transform: rotate(-122.792deg);
   flex-shrink: 0;
-  border-radius: 373.431px;
+  border-radius: 23.3394rem;
   opacity: 0.37;
   background: linear-gradient(12deg, #f101bf 2.82%, #06f 97.06%);
-  filter: blur(125px);
+  filter: blur(7.8125rem);
 }
-
 .right-gradient-container {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 518px;
-  height: 523px;
+  width: 32.375rem;
+  height: 32.6875rem;
   position: relative;
-  left: 870px;
-  bottom: 700px;
+  left: 54.375rem;
+  bottom: 43.75rem;
 }
 .right-gradient {
-  width: 472.095px;
-  height: 478.61px;
+  width: 29.5059rem;
+  height: 29.9131rem;
   transform: rotate(5.779deg);
   flex-shrink: 0;
-  border-radius: 236.048px;
+  border-radius: 14.753rem;
   opacity: 0.3;
   background: linear-gradient(12deg, #f101bf 2.82%, #06f 97.06%);
-  filter: blur(125px);
+  filter: blur(7.8125rem);
 }
-
 .form__title {
   color: #fff;
   font-family: Proxima Nova;
-  font-size: 55px;
+  font-size: 3.4375rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 55px;
+  line-height: 3.4375rem;
   position: relative;
-  left: 200px;
-  bottom: 1433px;
-  width: 361px;
-  height: 110px;
+  left: 12.5rem;
+  bottom: 89.5625rem;
+  width: 22.5625rem;
+  height: 6.875rem;
 }
 form {
-  width: 640px;
+  width: 40rem;
   position: relative;
-  left: 791px;
-  bottom: 1548px;
+  left: 49.4375rem;
+  bottom: 96.75rem;
 }
-
 .form__contact-us {
   color: #fff;
   font-family: Proxima Nova;
-  font-size: 28px;
+  font-size: 1.75rem;
   font-style: normal;
   font-weight: 700;
-  letter-spacing: -0.746px;
-  margin-bottom: 31px;
+  letter-spacing: -0.0466rem;
+  margin-bottom: 1.9375rem;
 }
 .form__name {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-
 .form__label {
   color: #fff;
   font-family: Proxima Nova;
-  font-size: 13px;
+  font-size: 0.8125rem;
   font-style: normal;
   font-weight: 600;
-  line-height: 1px;
-  padding-left: 4px;
+  line-height: 0.0625rem;
+  padding-left: 0.25rem;
 }
 input::placeholder,
 textarea::placeholder {
@@ -98,44 +93,44 @@ textarea::placeholder {
 }
 .form__label {
   input {
-    border-radius: 8px;
-    border: 1px solid #292929;
+    border-radius: 0.5rem;
+    border: 0.0625rem solid #292929;
     background: #fff;
     display: flex;
-    width: 308px;
-    height: 40px;
+    width: 19.25rem;
+    height: 2.5rem;
     flex-direction: column;
     justify-content: center;
     color: #3d3d3d;
     font-family: Raleway;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 7px;
-    margin-top: 8px;
-    padding-left: 12px;
+    line-height: 0.4375rem;
+    margin-top: 0.5rem;
+    padding-left: 0.75rem;
   }
   textarea {
     color: #3d3d3d;
     font-family: Raleway;
-    font-size: 14px;
+    font-size: 0.875rem;
     font-style: normal;
     font-weight: 200;
-    line-height: 7px;
-    width: 640px;
-    height: 96px;
+    line-height: 0.4375rem;
+    width: 40rem;
+    height: 6rem;
     resize: none;
     display: flex;
-    border-radius: 8px;
-    border: 1px solid #d2d6da;
+    border-radius: 0.5rem;
+    border: 0.0625rem solid #d2d6da;
     background: #fff;
-    margin-top: 8px;
-    padding: 14px 11px;
+    margin-top: 0.5rem;
+    padding: 0.875rem 0.6875rem;
   }
 }
 .first-name {
   input {
-    margin-bottom: 27px;
+    margin-bottom: 1.6875rem;
   }
   input::placeholder {
     opacity: 1;
@@ -144,29 +139,28 @@ textarea::placeholder {
 }
 .last-name {
   input {
-    width: 312px;
+    width: 19.5rem;
   }
 }
 .form__email {
   input {
-    width: 640px;
-    margin-bottom: 27px;
+    width: 40rem;
+    margin-bottom: 1.6875rem;
     font-weight: 200;
   }
 }
 .form__textarea {
-  margin-bottom: 32px;
+  margin-bottom: 2rem;
 }
-
 .form__button {
   display: flex;
-  width: 201px;
-  height: 53px;
-  padding: 4px 40px;
+  width: 12.5625rem;
+  height: 3.3125rem;
+  padding: 0.25rem 2.5rem;
   justify-content: center;
   align-items: center;
-  gap: 10px;
-  border-radius: 4px;
+  gap: 0.625rem;
+  border-radius: 0.25rem;
   background: #ff8b00;
-  margin-left: -3px;
+  margin-left: -0.1875rem;
 }

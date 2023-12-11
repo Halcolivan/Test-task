@@ -2,34 +2,34 @@
   display: block;
   background: url(../../assets/image/Logo.svg),
     lightgray 0px 0px / 100% 100% no-repeat;
-  width: 78px;
-  height: 100px;
-  margin-right: 504px;
+  width: 4.875rem;
+  height: 6.25rem;
+  margin-right: 31.5rem;
 }
 .header__navigation {
-  padding-top: 48px;
+  padding-top: 3rem;
 }
 .navigation {
   display: flex;
 }
 .navigation li {
-  border-bottom: 3px solid transparent;
+  border-bottom: 0.1875rem solid transparent;
 }
 .navigation li:hover {
-  border-bottom: 3px solid $color-fill;
+  border-bottom: 0.1875rem solid $color-fill;
 }
 li:not(:last-child) {
-  margin-right: 26px;
+  margin-right: 1.625rem;
 }
 .nav-item {
   display: inline-block;
-  padding: 0px 1px 5px;
+  padding: 0 0.0625rem 0.3125rem;
   transition: all 0.7s ease;
   text-transform: uppercase;
   color: $color-light;
   font-family: Proxima Nova;
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 18px;
+  line-height: 1.125rem;
 }
