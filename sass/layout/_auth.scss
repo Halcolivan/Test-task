@@ -1,0 +1,160 @@
+.auth {
+  background-image: url(../../assets/image/Background-header.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+@media (max-width: 1440px) {
+  .auth {
+    display: flex;
+  }
+}
+.auth__wrapper {
+  padding-top: 16.3125rem;
+}
+@media (max-width: 1024px) {
+  .auth__wrapper {
+    padding-top: 10.25rem;
+  }
+}
+@media (max-width: 480px) {
+  .auth__wrapper {
+    padding-top: 3.875rem;
+  }
+}
+.auth__content-image {
+  display: flex;
+  margin-bottom: 8.4375rem;
+  align-items: center;
+}
+@media (max-width: 1024px) {
+  .auth__content-image {
+    flex-direction: column-reverse;
+  }
+}
+@media (max-width: 480px) {
+  .auth__content-image {
+    margin-bottom: 4.4375rem;
+  }
+}
+.auth__content {
+  padding-left: 5.125rem;
+  margin-right: 13.8125rem;
+}
+@media (max-width: 480px) {
+  .auth__content {
+    padding: 0 1.75rem 0;
+  }
+}
+@media (max-width: 340px) {
+  .auth__content {
+    padding: 0 0.5rem 0 1.75rem;
+  }
+}
+@media (max-width: 1440px) {
+  .auth__content {
+    margin-right: 6.25rem;
+  }
+}
+@media (max-width: 480px) {
+  .auth__content {
+    margin-right: 0;
+  }
+}
+.auth__text {
+  color: $color-light;
+  font-family: Proxima Nova;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 187.5%; // 1.875rem
+  padding-bottom: 44px; // 2.75rem
+}
+@media (max-width: 1440px) {
+  .auth__text {
+    padding-bottom: 12px;
+  }
+}
+@media (max-width: 1024px) {
+  .auth__text {
+    line-height: 125%;
+  }
+}
+@media (max-width: 480px) {
+  .auth__text {
+    display: none;
+  }
+}
+.auth__text-screen-480 {
+  display: none;
+  color: $color-light;
+  font-family: Proxima Nova;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 125%; // 1.875rem
+  padding-bottom: 44px; // 2.75rem
+}
+@media (max-width: 480px) {
+  .auth__text-screen-480 {
+    display: block;
+    padding-bottom: 27px;
+  }
+}
+.auth__twit-image {
+  padding-top: 71px;
+}
+@media (max-width: 1024px) {
+  .auth__twit-image {
+    margin-bottom: 65px;
+  }
+}
+.twit-image {
+  width: 151px;
+  height: 124px;
+  background-image: url(../../assets/image/Twitter.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+@media (max-width: 1024px) {
+  .twit-image {
+    width: 100px;
+    height: 84px;
+  }
+}
+.auth__find {
+  width: 7.25rem;
+  margin: 0 auto;
+  padding-bottom: 3.125rem;
+}
+@media (max-width: 480px) {
+  .auth__find {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.find-text {
+  color: $color-light;
+  font-family: Proxima Nova;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 133.333%; // 1.25rem
+  text-transform: uppercase;
+  padding-bottom: 1.19rem;
+}
+@media (max-width: 480px) {
+  .find-text {
+    font-size: 13px;
+    line-height: 153.846%;
+  }
+}
+.find-icon {
+  display: block;
+  background: url(../../assets/icons/find-icon.svg);
+  width: 3.875rem;
+  height: 4.4375rem;
+  margin: auto;
+}
