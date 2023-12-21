@@ -38,6 +38,7 @@ body {
   margin: auto;
   max-width: 1600px;
   font-size: 1rem;
+  color: #FFF;
   font-family: Proxima Nova, Arial, sans-serif;
 }
 
@@ -69,22 +70,22 @@ h2 {
 }
 
 .header__nav {
-  margin: 0 0 0 504px;
+  margin: 0 0 0 31.5rem;
 }
 
 @media (max-width: 1440px) {
   .header__nav {
-    margin: 0 0 0 350px;
+    margin: 0 0 0 21.875rem;
   }
 }
 @media (max-width: 1200px) {
   .header__nav {
-    margin: 0 0 0 250px;
+    margin: 0 0 0 15.625rem;
   }
 }
 @media (max-width: 1024px) {
   .header__nav {
-    margin: 0 0 0 100px;
+    margin: 0 0 0 6.25rem;
   }
 }
 @media (max-width: 768px) {
@@ -101,7 +102,7 @@ h2 {
 }
 
 .nav__item:not(:last-child) {
-  margin-right: 28px;
+  margin-right: 1.75rem;
 }
 
 .nav__link {
@@ -109,7 +110,6 @@ h2 {
   -o-transition: all 0.7s ease;
   transition: all 0.7s ease;
   text-transform: uppercase;
-  font-family: Proxima Nova;
   font-size: 0.9375rem;
   font-style: normal;
   font-weight: 700;
@@ -128,6 +128,8 @@ h2 {
   left: 0;
   top: 0;
   z-index: 60;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -150,6 +152,7 @@ h2 {
 .content-area {
   max-width: 1152px;
   margin: 0 auto;
+  -webkit-box-sizing: content-box;
   box-sizing: content-box;
 }
 
@@ -672,6 +675,8 @@ textarea::placeholder {
 
 @media (max-width: 1440px) {
   .auth {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
   }
 }
@@ -690,13 +695,20 @@ textarea::placeholder {
   }
 }
 .auth__content-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-bottom: 8.4375rem;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
 @media (max-width: 1024px) {
   .auth__content-image {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
     flex-direction: column-reverse;
   }
 }
@@ -715,11 +727,6 @@ textarea::placeholder {
     padding: 0 1.75rem 0;
   }
 }
-@media (max-width: 340px) {
-  .auth__content {
-    padding: 0 0.5rem 0 1.75rem;
-  }
-}
 @media (max-width: 1440px) {
   .auth__content {
     margin-right: 6.25rem;
@@ -731,18 +738,14 @@ textarea::placeholder {
   }
 }
 .auth__text {
-  color: #FFF;
-  font-family: Proxima Nova;
-  font-size: 1rem;
-  font-style: normal;
   font-weight: 600;
   line-height: 187.5%;
-  padding-bottom: 44px;
+  padding-bottom: 2.75rem;
 }
 
 @media (max-width: 1440px) {
   .auth__text {
-    padding-bottom: 12px;
+    padding-bottom: 0.75rem;
   }
 }
 @media (max-width: 1024px) {
@@ -757,33 +760,39 @@ textarea::placeholder {
 }
 .auth__text-screen-480 {
   display: none;
-  color: #FFF;
-  font-family: Proxima Nova;
-  font-size: 1rem;
-  font-style: normal;
   font-weight: 600;
   line-height: 125%;
-  padding-bottom: 44px;
 }
 
 @media (max-width: 480px) {
   .auth__text-screen-480 {
     display: block;
-    padding-bottom: 27px;
+    padding-bottom: 1.6875rem;
   }
 }
 .auth__twit-image {
-  padding-top: 71px;
+  padding-top: 0.9375rem;
 }
 
 @media (max-width: 1024px) {
   .auth__twit-image {
-    margin-bottom: 65px;
+    margin-bottom: 4.0625rem;
+    padding-top: 3.625rem;
+  }
+}
+@media (max-width: 800px) {
+  .auth__twit-image {
+    padding-top: 0;
+  }
+}
+@media (max-width: 480px) {
+  .auth__twit-image {
+    padding-top: 4.375rem;
   }
 }
 .twit-image {
-  width: 151px;
-  height: 124px;
+  width: 9.4375rem;
+  height: 7.75rem;
   background-image: url(../../assets/image/Twitter.svg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -792,10 +801,46 @@ textarea::placeholder {
 
 @media (max-width: 1024px) {
   .twit-image {
-    width: 100px;
-    height: 84px;
+    width: 6.25rem;
+    height: 5.25rem;
   }
 }
+.auth__pagination {
+  position: absolute;
+  top: 20.9375rem;
+  left: 95.3125rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding: 0 0.125rem 0;
+}
+
+@media (max-width: 1580px) {
+  .auth__pagination {
+    left: 84.375rem;
+  }
+}
+@media (max-width: 1440px) {
+  .auth__pagination {
+    display: none;
+  }
+}
+.pag {
+  background: url(../../assets/icons/pagination-header.svg);
+  height: 1.375rem;
+}
+
+.pag-colored {
+  background: url(../../assets/icons/auth-hexagon-colored.svg);
+  width: 1.1875rem;
+  height: 1.375rem;
+}
+
 .auth__find {
   width: 7.25rem;
   margin: 0 auto;
@@ -804,14 +849,19 @@ textarea::placeholder {
 
 @media (max-width: 480px) {
   .auth__find {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
   }
 }
 .find-text {
-  color: #FFF;
-  font-family: Proxima Nova;
   font-size: 0.9375rem;
   font-style: normal;
   font-weight: 700;
@@ -835,6 +885,8 @@ textarea::placeholder {
 }
 
 .auth__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   padding: 0.25rem 2.5rem;
   width: 10.875rem;
