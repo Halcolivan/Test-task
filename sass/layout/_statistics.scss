@@ -8,18 +8,18 @@
   justify-content: center;
   gap: 5.75rem;
   flex-grow: 1;
-  padding: 8.3125rem 0 0;
+  padding: 8.3125rem 0 8.1875rem;
 }
 @media (max-width: 1024px) {
   .statistics__columns {
-    padding: 0 4rem 0;
+    padding: 4rem;
     gap: 4.25rem;
   }
 }
 @media (max-width: 768px) {
   .statistics__columns {
     flex-direction: column;
-    padding: 5.125rem 0 0;
+    padding: 5rem 0 6.25rem;
   }
 }
 .column {
