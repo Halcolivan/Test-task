@@ -366,13 +366,12 @@ h2 {
     padding-left: 0.5625rem;
   }
 }
-@media (max-width: 1600px) {
-  .tablet {
-    display: none;
-  }
+.tablet {
+  display: none;
 }
+
 @media (max-width: 768px) {
-  .desctop {
+  .desktop {
     display: none;
   }
   .tablet {
@@ -560,32 +559,111 @@ h2 {
   }
 }
 .product-spotlight__container {
-  padding: 7.125rem 8.5625rem 6.0625rem 10rem;
+  padding: 7.125rem 0 6.0625rem 23px;
+  max-width: 1326px;
+  margin: 0 auto;
   display: flex;
+  justify-content: space-between;
 }
 
+@media (max-width: 1440px) {
+  .product-spotlight__container {
+    padding-right: 23px;
+  }
+}
+@media (max-width: 1250px) {
+  .product-spotlight__container {
+    padding-top: 100px;
+    justify-content: center;
+  }
+}
+@media (max-width: 375px) {
+  .product-spotlight__container {
+    padding: 100px 0 100px;
+    max-width: 319px;
+    display: block;
+  }
+}
 .product-spotlight__content {
-  padding: 5.9375rem 6.25rem 0 0;
-  margin-right: 2.3125rem;
+  padding: 5.9375rem 0 0;
 }
 
+@media (max-width: 1250px) {
+  .product-spotlight__content {
+    padding: 0;
+  }
+}
 .product-spotlight__title {
   color: #7050e5;
-  font-family: Proxima Nova;
   margin-bottom: 0.4375rem;
 }
 
+@media (max-width: 768px) {
+  .product-spotlight__title {
+    font-size: 24px;
+    line-height: 133.333%;
+  }
+}
+@media (max-width: 375px) {
+  .product-spotlight__title {
+    padding-top: 1px;
+    margin-bottom: 16px;
+  }
+}
 .product-spotlight__text {
   color: #878787;
-  font-family: Proxima Nova;
   font-size: 0.9375rem;
   font-style: normal;
   font-weight: 400;
   line-height: 1.3125rem;
   letter-spacing: -0.01875rem;
-  margin-bottom: 1.875rem;
+  margin-bottom: 31px;
 }
 
+.product-spotlight__mobile {
+  display: none;
+}
+
+@media (max-width: 375px) {
+  .product-spotlight__mobile {
+    display: block;
+  }
+}
+@media (max-width: 375px) {
+  .product-spotlight__desktop {
+    display: none;
+  }
+}
+.product-spotlight__video-tablet {
+  display: none;
+  max-width: 724px;
+  height: 27.75rem;
+  background-image: url(../../assets/image/modal-video.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 1250px) {
+  .product-spotlight__video-tablet {
+    display: block;
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 768px) {
+  .product-spotlight__video-tablet {
+    max-width: 319px;
+    max-height: 196px;
+  }
+}
+@media (max-width: 375px) {
+  .product-spotlight__video-tablet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 81px;
+  }
+}
 .product-spotlight__button {
   display: flex;
   width: 10.6875rem;
@@ -595,22 +673,63 @@ h2 {
   border-radius: 0.25rem;
 }
 
-.product-spotlight__video {
+@media (max-width: 1250px) {
+  .product-spotlight__button {
+    margin: 0 auto;
+  }
+}
+.product-spotlight__video-desktop {
+  max-width: 724px;
   height: 27.75rem;
-  background: url(../../assets/image/modal-video.svg), lightgray 50%/cover no-repeat;
+  background-image: url(../../assets/image/modal-video.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
+@media (max-width: 1250px) {
+  .product-spotlight__video-desktop {
+    display: none;
+  }
+}
 .product-spotlight__play {
   padding: 10.8125rem 20.1875rem 1.625rem 20.25rem;
 }
 
+@media (max-width: 768px) {
+  .product-spotlight__play {
+    padding: 0;
+  }
+}
+@media (max-width: 375px) {
+  .product-spotlight__play {
+    margin-bottom: 16px;
+  }
+}
 .play {
   display: block;
   background: url(../../assets/icons/play.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   width: 4.8125rem;
   height: 4.8125rem;
 }
 
+@media (max-width: 768px) {
+  .play {
+    max-width: 33.927px;
+    max-height: 33.927px;
+  }
+}
+@media (max-width: 375px) {
+  .play {
+    background-image: url(../../assets/icons/play-375.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
 .feature-video {
   color: #fff;
   font-family: Raleway;
@@ -622,6 +741,18 @@ h2 {
   padding: 0 0 0.5rem 19.0625rem;
 }
 
+@media (max-width: 768px) {
+  .feature-video {
+    font-size: 10px;
+    line-height: 140%;
+    padding: 0;
+  }
+}
+@media (max-width: 375px) {
+  .feature-video {
+    margin-bottom: 2px;
+  }
+}
 .token {
   color: #fff;
   font-family: Raleway;
@@ -633,6 +764,13 @@ h2 {
   padding-left: 9.375rem;
 }
 
+@media (max-width: 768px) {
+  .token {
+    font-size: 13px;
+    line-height: 169.231%;
+    padding: 0;
+  }
+}
 .form__container {
   background: #232323;
   overflow: hidden;

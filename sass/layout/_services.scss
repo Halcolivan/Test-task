@@ -106,13 +106,11 @@
     padding-left: 0.5625rem;
   }
 }
-@media (max-width: 1600px) {
   .tablet {
     display: none;
   }
-}
 @media (max-width: 768px) {
-  .desctop {
+  .desktop {
     display: none;
   }
   .tablet {
