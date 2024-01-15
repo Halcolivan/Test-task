@@ -561,6 +561,8 @@ h2 {
 .product-spotlight__container {
   padding: 7.125rem 0 6.0625rem 1.4375rem;
   max-width: 82.875rem;
+  padding: 7.125rem 0 6.0625rem 1.4375rem;
+  max-width: 82.875rem;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
