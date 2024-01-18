@@ -6,9 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Test task</title>
   <link rel="stylesheet" href="sass/style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;600;800&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -43,6 +40,7 @@
     </header>
 
     <main class="main">
+
       <section class="auth">
         <div class="auth__wrapper content-area">
           <div class="auth__content-image">
@@ -76,15 +74,15 @@
       <section class="statistics">
         <div class="statistics__container content-area">
           <div class="statistics__columns">
-            <div class="column">
+            <div class="statistics__column">
               <div class="value">126,300</div>
               <div class="description">Identity Theft Cases Reported<br>in Australia</div>
             </div>
-            <div class="column">
+            <div class="statistics__column">
               <div class="value">$20.1bn</div>
               <div class="description">Online Transactions per<br>annum by Australians</div>
             </div>
-            <div class="column">
+            <div class="statistics__column">
               <div class="value">45,511</div>
               <div class="description">Online Fraud Cases Reported<br>in Australia</div>
             </div>
@@ -217,7 +215,7 @@
               to get started?</p>
           </div>
           <div class="form__right-gradient">
-            <form action method="post">
+            <form method="post">
               <p class="form__contact-us">Contact us</p>
               <div class="form__name">
                 <div class="first-name">
@@ -246,10 +244,8 @@
       </section>
 
     </main>
-    <footer class="footer">footer</footer>
 
-    <!-- <footer class="footer">
-    <div class="wrapper">
+    <footer class="footer">
       <div class="footer__container">
         <div class="footer__top-line">
           <div class="footer__info-block">
@@ -277,7 +273,7 @@
             </div>
           </div>
           <div class="footer__3-columns">
-            <div class="column">
+            <div class="footer__column">
               <div class="footer__column-head">
                 <div class="hexagon"></div>
                 <div class="topic">Navigation</div>
@@ -287,36 +283,47 @@
               <p>Services</p>
               <p>Resources</p>
               <p>About</p>
-              <p>CONTACT US</p>
+              <p>Contact us</p>
             </div>
-            <div class="column">
+            <div class="footer__column">
               <div class="footer__column-head">
                 <div class="hexagon"></div>
                 <div class="topic">links</div>
               </div>
               <p>Disclaimer</p>
               <p>Legal</p>
-              <p>Environment Policy</p>
+              <p>Environment <br class="footer__column-policy">Policy</p>
               <p>Privacy</p>
             </div>
-            <div class="column">
-              <div class="footer__column-head">
+            <div class="footer__column footer__column-3">
+              <div class="footer__column-head footer__column-head-3">
                 <div class="hexagon"></div>
                 <div class="topic">contact sales</div>
               </div>
-              <p class="column-line-phone-number"><span class="column-phone">PHONE: </span><span class="column-number">+61 3 9614 4416</span></p>
-              <p class="column-line-email-post"><span class="column-email">EMAIL: </span><span class="column-post">sales@saltgroup.com.au</span></p>
+              <p class="column-line-phone-number"><span class="column-phone">PHONE: </span><span
+                  class="column-number">+61 3 9614 4416</span></p>
+              <p class="column-line-email-post"><span class="column-email">EMAIL: </span><span
+                  class="column-post">sales@saltgroup.com.au</span></p>
             </div>
           </div>
-          <div class="footer__image-block"><div class="footer__image"></div></div>
+          <div class="footer__image-block">
+            <div class="footer__image"></div>
+          </div>
         </div>
         <div class="footer__bottom-line">
-          <div class="footer__line">&copy;2017 salt group<div class="hexagon-bottom-line"><div class="hexagon-bottom"></div></div>all rights reserved. website by
-            dorne creative.</div>
+          <div class="footer__line">
+            <div class="footer__copyright">&copy;</div>
+            <p class="footer__2017">2017 salt group</p>
+            <div class="hexagon-bottom-container">
+              <div class="hexagon-bottom"></div>
+            </div>
+            <p>all rights reserved. website by
+              dorne creative.</p>
+          </div>
         </div>
       </div>
-    </div>
-  </footer> -->
+    </footer>
+
   </div>
 </body>
 

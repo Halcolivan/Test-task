@@ -22,18 +22,17 @@ body {
   max-width: 1600px;
   font-size: 1rem;
   color: $color-light;
-  font-family: Proxima Nova, Arial, sans-serif;
+  font-family: "Proxima Nova", Arial, sans-serif;
 }
 a {
   text-decoration: none;
   color: inherit;
 }
 h1 {
-  // color: $color-light;
   font-size: 3.4375rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 100%;// 3.4375rem
+  line-height: 100%;
   padding-bottom: 0.75rem;
 }
 @media (max-width: 1024px) {
